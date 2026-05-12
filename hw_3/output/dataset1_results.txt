@@ -1,0 +1,17 @@
+Dataset: 1
+Architecture: [2, 32, 16, 3]
+Activation: relu
+Dropout: 0.0
+Epochs: 500
+Learning Rate: 0.01
+Weight Decay: 0.0001
+
+Train Accuracy: 0.9844
+Test Accuracy (all): 0.9762
+Test Accuracy (Ç°60): 0.9833
+Test Accuracy (ºó150): 0.9733
+
+Confusion Matrix:
+[[70  0  0]
+ [ 0 70  0]
+ [ 5  0 65]]

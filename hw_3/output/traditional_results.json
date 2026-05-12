@@ -1,0 +1,218 @@
+[
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=1",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9809523809523809,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9733333333333334
+  },
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=3",
+    "train_acc": 0.9755555555555555,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 0.9833333333333333,
+    "test_acc_last150": 0.9533333333333334
+  },
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=5",
+    "train_acc": 0.9622222222222222,
+    "test_acc_all": 0.9571428571428572,
+    "test_acc_first60": 0.9666666666666667,
+    "test_acc_last150": 0.9533333333333334
+  },
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=7",
+    "train_acc": 0.9644444444444444,
+    "test_acc_all": 0.9428571428571428,
+    "test_acc_first60": 0.9666666666666667,
+    "test_acc_last150": 0.9333333333333333
+  },
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=9",
+    "train_acc": 0.9622222222222222,
+    "test_acc_all": 0.9428571428571428,
+    "test_acc_first60": 0.95,
+    "test_acc_last150": 0.94
+  },
+  {
+    "method": "KNN",
+    "dataset": 1,
+    "param": "k=11",
+    "train_acc": 0.9622222222222222,
+    "test_acc_all": 0.9333333333333333,
+    "test_acc_first60": 0.95,
+    "test_acc_last150": 0.9266666666666666
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=1",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9666666666666667,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9533333333333334
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=3",
+    "train_acc": 0.92,
+    "test_acc_all": 0.919047619047619,
+    "test_acc_first60": 0.9,
+    "test_acc_last150": 0.9266666666666666
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=5",
+    "train_acc": 0.9088888888888889,
+    "test_acc_all": 0.9285714285714286,
+    "test_acc_first60": 0.9,
+    "test_acc_last150": 0.94
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=7",
+    "train_acc": 0.9022222222222223,
+    "test_acc_all": 0.9095238095238095,
+    "test_acc_first60": 0.8833333333333333,
+    "test_acc_last150": 0.92
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=9",
+    "train_acc": 0.8977777777777778,
+    "test_acc_all": 0.9047619047619048,
+    "test_acc_first60": 0.8833333333333333,
+    "test_acc_last150": 0.9133333333333333
+  },
+  {
+    "method": "KNN",
+    "dataset": 2,
+    "param": "k=11",
+    "train_acc": 0.8911111111111111,
+    "test_acc_all": 0.9047619047619048,
+    "test_acc_first60": 0.8833333333333333,
+    "test_acc_last150": 0.9133333333333333
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=50",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9666666666666667,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9533333333333334
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=100",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9466666666666667
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=200",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9666666666666667,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9533333333333334
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=100,depth=5",
+    "train_acc": 0.9822222222222222,
+    "test_acc_all": 0.9476190476190476,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9266666666666666
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=100,depth=10",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9571428571428572,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.94
+  },
+  {
+    "method": "RF",
+    "dataset": 1,
+    "param": "n=100,depth=15",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9466666666666667
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=50",
+    "train_acc": 0.9977777777777778,
+    "test_acc_all": 0.9571428571428572,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.94
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=100",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9466666666666667
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=200",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9466666666666667
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=100,depth=5",
+    "train_acc": 0.9311111111111111,
+    "test_acc_all": 0.9,
+    "test_acc_first60": 0.8833333333333333,
+    "test_acc_last150": 0.9066666666666666
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=100,depth=10",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9571428571428572,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.94
+  },
+  {
+    "method": "RF",
+    "dataset": 2,
+    "param": "n=100,depth=15",
+    "train_acc": 1.0,
+    "test_acc_all": 0.9619047619047619,
+    "test_acc_first60": 1.0,
+    "test_acc_last150": 0.9466666666666667
+  }
+]
